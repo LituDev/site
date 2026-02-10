@@ -5,14 +5,30 @@
   "titlebar.right": "UTF-8 | LF",
 
   "nav.intro": "[1] Intro",
-  "nav.projects": "[2] Projects",
-  "nav.competitions": "[3] Competitions",
-  "nav.seerdesk": "[4] SeerDesk",
+  "nav.education": "[2] Education",
+  "nav.projects": "[3] Projects",
+  "nav.competitions": "[4] Competitions",
+  "nav.seerdesk": "[5] SeerDesk",
 
   "section.intro": "Introduction",
+  "section.education": "Education",
   "section.projects": "My Projects",
   "section.competitions": "My Competitions",
   "section.seerdesk": "SeerDesk \u2014 Distributed Remote Desktop Solution",
+
+  "edu.1.school": "ENSSAT",
+  "edu.1.full": "National Graduate School of Applied Sciences and Technology",
+  "edu.1.degree": "Engineering degree (apprenticeship), Computer Science",
+  "edu.1.year": "Sep 2025 \u2013 Aug 2028",
+
+  "edu.2.school": "IUT de Vannes",
+  "edu.2.degree": "Bachelor of Technology, Computer Science",
+  "edu.2.year": "Sep 2022 \u2013 Aug 2025",
+  "edu.2.skills": "Web development \u00b7 Java \u00b7 Project management",
+
+  "edu.3.school": "Lyc\u00e9e Victor et H\u00e9l\u00e8ne Basch",
+  "edu.3.degree": "Baccalaur\u00e9at (High School Diploma), Mathematics & Computer Science",
+  "edu.3.year": "Sep 2019 \u2013 Jul 2022",
 
   "intro.prompt": "$ cat about.txt",
   "intro.text": "Hi, I'm <strong>Lenny</strong>, passionate about application development and technological innovation. I thrive working on challenging projects that combine technical expertise and creativity.",

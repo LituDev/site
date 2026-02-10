@@ -172,6 +172,46 @@ const { lang, title } = Astro.props;
     color: var(--dim);
   }
 
+  /* ── EDUCATION ── */
+  .edu {
+    margin-bottom: 16px;
+    padding-left: 4px;
+  }
+  .edu:last-child { margin-bottom: 0; }
+  .edu-header {
+    display: flex;
+    align-items: baseline;
+    gap: 12px;
+    flex-wrap: wrap;
+  }
+  .edu-school {
+    color: var(--accent);
+    font-weight: 700;
+    font-size: 14px;
+  }
+  .edu-year {
+    color: var(--dim);
+    font-size: 11px;
+  }
+  .edu-full {
+    color: var(--dim);
+    font-size: 11px;
+    margin-top: 2px;
+    padding-left: 2px;
+  }
+  .edu-degree {
+    color: var(--white);
+    font-size: 13px;
+    margin-top: 2px;
+    padding-left: 2px;
+  }
+  .edu-skills {
+    color: var(--dim);
+    font-size: 11px;
+    margin-top: 4px;
+    padding-left: 2px;
+  }
+
   /* ── PROJECTS ── */
   .project {
     margin-bottom: 20px;
