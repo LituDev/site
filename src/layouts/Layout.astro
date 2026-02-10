@@ -126,15 +126,15 @@ const { lang, title } = Astro.props;
     gap: 0;
   }
   .nav a {
-    flex: 1;
+    flex: 1 1 auto;
     text-align: center;
-    padding: 8px 12px;
+    padding: 8px 6px;
     color: var(--dim);
     text-decoration: none;
     border-right: 1px solid var(--border);
     font-size: 12px;
     transition: color .15s, background .15s;
-    min-width: max-content;
+    white-space: nowrap;
   }
   .nav a:last-child { border-right: none; }
   .nav a:hover {
