@@ -45,12 +45,12 @@
 
   "projects.sixctf1.name": "SIXCTF I",
   "projects.sixctf1.year": "2023",
-  "projects.sixctf1.desc": "CTF project for students at IUT de Vannes.",
+  "projects.sixctf1.desc": "CTF project for students at IUT de Vannes. Project leader.",
   "projects.sixctf1.link": "Github",
 
   "projects.sixctf2.name": "SIXCTF II",
   "projects.sixctf2.year": "2024",
-  "projects.sixctf2.desc": "CTF project for students at IUT de Vannes, second edition.",
+  "projects.sixctf2.desc": "CTF project for students at IUT de Vannes, second edition. Project leader.",
   "projects.sixctf2.link": "Github",
 
   "projects.brainrot.name": "BrainRot26",
