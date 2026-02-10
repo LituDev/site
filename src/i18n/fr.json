@@ -1,0 +1,76 @@
+{
+  "title": "Lenny Le Tyrant",
+  "subtitle": "Developpeur \u00b7 Passionn\u00e9",
+  "titlebar.left": "lenny@tyrant:~",
+  "titlebar.right": "UTF-8 | LF",
+
+  "nav.intro": "[1] Intro",
+  "nav.projects": "[2] Projets",
+  "nav.competitions": "[3] Comp\u00e9titions",
+  "nav.seerdesk": "[4] SeerDesk",
+
+  "section.intro": "Introduction",
+  "section.projects": "Mes Projets",
+  "section.competitions": "Mes Comp\u00e9titions",
+  "section.seerdesk": "SeerDesk \u2014 Distributed Remote Desktop Solution",
+
+  "intro.prompt": "$ cat about.txt",
+  "intro.text": "Bonjour, je suis <strong>Lenny</strong>, passionn\u00e9 par le d\u00e9veloppement d'applications et l'innovation technologique. Je m'\u00e9panouis en travaillant sur des projets stimulants qui allient expertise technique et cr\u00e9ativit\u00e9.",
+
+  "projects.balz.name": "Balz.io",
+  "projects.balz.year": "2019-2020",
+  "projects.balz.desc": "Un clone du c\u00e9l\u00e8bre jeu Agar.io, responsable du d\u00e9veloppement du serveur et du client.",
+  "projects.balz.desc2": "Des milliers de vues sur Youtube, un fort engagement sur le jeu.",
+
+  "projects.cigar3.name": "Cigar3",
+  "projects.cigar3.year": "2022-2024",
+  "projects.cigar3.desc": "Clone Open Source d'Agar.io utilisant l'API WebGL. 18 stars.",
+  "projects.cigar3.link": "Github",
+
+  "projects.sixctf1.name": "SIXCTF I",
+  "projects.sixctf1.year": "2023",
+  "projects.sixctf1.desc": "Projet de CTF pour les \u00e9tudiants de l'IUT de Vannes.",
+  "projects.sixctf1.link": "Github",
+
+  "projects.sixctf2.name": "SIXCTF II",
+  "projects.sixctf2.year": "2024",
+  "projects.sixctf2.desc": "Projet de CTF pour les \u00e9tudiants de l'IUT de Vannes, deuxi\u00e8me \u00e9dition.",
+  "projects.sixctf2.link": "Github",
+
+  "projects.brainrot.name": "BrainRot26",
+  "projects.brainrot.year": "2025",
+  "projects.brainrot.desc": "Un LLM humoristique impl\u00e9mentant l'algorithme ROT26.",
+  "projects.brainrot.link": "Github",
+
+  "comp.1.rank": "#1",
+  "comp.1.event": "24h de l'info, 2023",
+  "comp.1.detail": "Bourg-En-Bresse \u2014 IUT Lyon (contre toutes les IUT de France) \u00b7 1er en cyber",
+
+  "comp.2.rank": "#6",
+  "comp.2.event": "Esaip CTF 2024",
+  "comp.2.detail": "Angers \u2014 130 participants \u00b7 30 \u00e9quipes \u00b7 11h de challenge \u00b7 7\u00e8me \u00e9dition",
+
+  "comp.3.rank": "#2",
+  "comp.3.event": "24h de l'info, 2024",
+  "comp.3.detail": "Saint-Denis \u2014 IUT Villetaneuse (contre toutes les IUT de France)",
+
+  "comp.4.rank": "#2",
+  "comp.4.event": "24h de l'info, 2025",
+  "comp.4.detail": "Lyon \u2014 IUT Lyon (contre toutes les IUT de France) \u00b7 1er en cyber",
+
+  "comp.5.rank": "#10",
+  "comp.5.event": "BreizhCTF 2025",
+  "comp.5.detail": "Rennes \u2014 600 participants \u00b7 10h30 de challenge \u00b7 9\u00e8me \u00e9dition",
+
+  "comp.6.rank": "Prix Innovation",
+  "comp.6.event": "Rennes Data Challenge 2026",
+  "comp.6.detail": "Rennes \u2014 Universit\u00e9 de Rennes \u00b7 22 \u00e9quipes \u00b7 4\u00e8me \u00e9dition",
+
+  "seerdesk.prompt": "$ cat stack.txt",
+  "seerdesk.subtitle": "Monorepo \u00b7 8 composants \u00b7 Multi-language",
+  "seerdesk.stackLabel": "STACK",
+  "seerdesk.archLabel": "ARCHITECTURE",
+
+  "footer.copyright": "Lenny Le Tyrant",
+  "footer.exit": "exit 0"
+}

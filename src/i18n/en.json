@@ -1,0 +1,76 @@
+{
+  "title": "Lenny Le Tyrant",
+  "subtitle": "Developer \u00b7 Passionate",
+  "titlebar.left": "lenny@tyrant:~",
+  "titlebar.right": "UTF-8 | LF",
+
+  "nav.intro": "[1] Intro",
+  "nav.projects": "[2] Projects",
+  "nav.competitions": "[3] Competitions",
+  "nav.seerdesk": "[4] SeerDesk",
+
+  "section.intro": "Introduction",
+  "section.projects": "My Projects",
+  "section.competitions": "My Competitions",
+  "section.seerdesk": "SeerDesk \u2014 Distributed Remote Desktop Solution",
+
+  "intro.prompt": "$ cat about.txt",
+  "intro.text": "Hi, I'm <strong>Lenny</strong>, passionate about application development and technological innovation. I thrive working on challenging projects that combine technical expertise and creativity.",
+
+  "projects.balz.name": "Balz.io",
+  "projects.balz.year": "2019-2020",
+  "projects.balz.desc": "A clone of the famous game Agar.io, responsible for server and client development.",
+  "projects.balz.desc2": "Thousands of views on YouTube, strong player engagement.",
+
+  "projects.cigar3.name": "Cigar3",
+  "projects.cigar3.year": "2022-2024",
+  "projects.cigar3.desc": "Open Source Agar.io clone using the WebGL API. 18 stars.",
+  "projects.cigar3.link": "Github",
+
+  "projects.sixctf1.name": "SIXCTF I",
+  "projects.sixctf1.year": "2023",
+  "projects.sixctf1.desc": "CTF project for students at IUT de Vannes.",
+  "projects.sixctf1.link": "Github",
+
+  "projects.sixctf2.name": "SIXCTF II",
+  "projects.sixctf2.year": "2024",
+  "projects.sixctf2.desc": "CTF project for students at IUT de Vannes, second edition.",
+  "projects.sixctf2.link": "Github",
+
+  "projects.brainrot.name": "BrainRot26",
+  "projects.brainrot.year": "2025",
+  "projects.brainrot.desc": "A humorous LLM implementing the ROT26 algorithm.",
+  "projects.brainrot.link": "Github",
+
+  "comp.1.rank": "#1",
+  "comp.1.event": "24h de l'info, 2023",
+  "comp.1.detail": "Bourg-En-Bresse \u2014 IUT Lyon (against all IUTs in France) \u00b7 1st in cyber",
+
+  "comp.2.rank": "#6",
+  "comp.2.event": "Esaip CTF 2024",
+  "comp.2.detail": "Angers \u2014 130 participants \u00b7 30 teams \u00b7 11h challenge \u00b7 7th edition",
+
+  "comp.3.rank": "#2",
+  "comp.3.event": "24h de l'info, 2024",
+  "comp.3.detail": "Saint-Denis \u2014 IUT Villetaneuse (against all IUTs in France)",
+
+  "comp.4.rank": "#2",
+  "comp.4.event": "24h de l'info, 2025",
+  "comp.4.detail": "Lyon \u2014 IUT Lyon (against all IUTs in France) \u00b7 1st in cyber",
+
+  "comp.5.rank": "#10",
+  "comp.5.event": "BreizhCTF 2025",
+  "comp.5.detail": "Rennes \u2014 600 participants \u00b7 10h30 challenge \u00b7 9th edition",
+
+  "comp.6.rank": "Innovation Prize",
+  "comp.6.event": "Rennes Data Challenge 2026",
+  "comp.6.detail": "Rennes \u2014 University of Rennes \u00b7 22 teams \u00b7 4th edition",
+
+  "seerdesk.prompt": "$ cat stack.txt",
+  "seerdesk.subtitle": "Monorepo \u00b7 8 components \u00b7 Multi-language",
+  "seerdesk.stackLabel": "STACK",
+  "seerdesk.archLabel": "ARCHITECTURE",
+
+  "footer.copyright": "Lenny Le Tyrant",
+  "footer.exit": "exit 0"
+}
