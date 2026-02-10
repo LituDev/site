@@ -317,6 +317,28 @@ const { lang, title } = Astro.props;
     color: var(--dim);
   }
 
+  /* ── CONTACT ── */
+  .contact-grid {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+  }
+  .contact-item {
+    display: flex;
+    align-items: baseline;
+    gap: 12px;
+    padding-left: 4px;
+  }
+  .contact-label {
+    color: var(--dim);
+    font-size: 12px;
+    min-width: 10ch;
+  }
+  .contact-value {
+    color: var(--white);
+    font-size: 13px;
+  }
+
   /* ── SEPARATOR ── */
   .sep {
     color: var(--border);

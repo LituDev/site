@@ -9,6 +9,7 @@
   "nav.projects": "[3] Projets",
   "nav.competitions": "[4] Comp\u00e9titions",
   "nav.seerdesk": "[5] SeerDesk",
+  "nav.contact": "[6] Contact",
 
   "section.intro": "Introduction",
   "section.education": "Formation",
@@ -86,6 +87,8 @@
   "seerdesk.subtitle": "Monorepo \u00b7 8 composants \u00b7 Multi-language",
   "seerdesk.stackLabel": "STACK",
   "seerdesk.archLabel": "ARCHITECTURE",
+
+  "section.contact": "Contact",
 
   "footer.copyright": "Lenny Le Tyrant",
   "footer.exit": "exit 0"
