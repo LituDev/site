@@ -1,38 +1,39 @@
 {
   "title": "Lenny Le Tyrant",
-  "subtitle": "Developpeur \u00b7 Passionn\u00e9",
+  "subtitle": "Cofondateur & CEO de SeerDesk \u00b7 D\u00e9veloppeur syst\u00e8me",
   "titlebar.left": "lenny@tyrant:~",
   "titlebar.right": "UTF-8 | LF",
 
   "nav.intro": "[1] Intro",
-  "nav.education": "[2] Formation",
-  "nav.projects": "[3] Projets",
-  "nav.competitions": "[4] Comp\u00e9titions",
-  "nav.seerdesk": "[5] SeerDesk",
+  "nav.education": "[3] Formation",
+  "nav.projects": "[4] Projets",
+  "nav.competitions": "[5] Comp\u00e9titions",
+  "nav.seerdesk": "[2] SeerDesk",
   "nav.contact": "[6] Contact",
 
   "section.intro": "Introduction",
   "section.education": "Formation",
   "section.projects": "Mes Projets",
   "section.competitions": "Mes Comp\u00e9titions",
-  "section.seerdesk": "SeerDesk \u2014 Distributed Remote Desktop Solution",
+  "section.seerdesk": "SeerDesk \u00b7 Distributed Remote Desktop Solution",
 
   "edu.1.school": "ENSSAT",
   "edu.1.full": "\u00c9cole Nationale Sup\u00e9rieure des Sciences Appliqu\u00e9es et de Technologie",
   "edu.1.degree": "Ing\u00e9nieur par apprentissage, Informatique",
   "edu.1.year": "sept. 2025 \u2013 ao\u00fbt 2028",
+  "edu.1.roles": "BDE \u00b7 Bureau restreint, responsable technique & clubs (2e ann\u00e9e)",
 
   "edu.2.school": "IUT de Vannes",
-  "edu.2.degree": "BUT, Informatique",
+  "edu.2.degree": "BUT par apprentissage, Informatique",
   "edu.2.year": "sept. 2022 \u2013 ao\u00fbt 2025",
   "edu.2.skills": "D\u00e9veloppement web \u00b7 Java \u00b7 Gestion de projet",
+  "edu.2.roles": "BDE \u00b7 Membre (2e ann\u00e9e) \u00b7 Pr\u00e9sident (3e ann\u00e9e)",
 
   "edu.3.school": "Lyc\u00e9e Victor et H\u00e9l\u00e8ne Basch",
   "edu.3.degree": "Baccalaur\u00e9at g\u00e9n\u00e9ral, Math\u00e9matiques et informatique",
   "edu.3.year": "sept. 2019 \u2013 juil. 2022",
 
-  "intro.prompt": "$ cat about.txt",
-  "intro.text": "Bonjour, je suis <strong>Lenny</strong>, passionn\u00e9 par le d\u00e9veloppement d'applications et l'innovation technologique. Je m'\u00e9panouis en travaillant sur des projets stimulants qui allient expertise technique et cr\u00e9ativit\u00e9.",
+  "intro.text": "Je suis <strong>Lenny</strong>. Je construis <a href=\"https://seerdesk.fr\">SeerDesk</a>, un bureau \u00e0 distance souverain \u00e0 30 ms, dont je suis cofondateur et CEO. Je suis d\u00e9veloppeur syst\u00e8me avec des connaissances en cybers\u00e9curit\u00e9, et ing\u00e9nieur en apprentissage \u00e0 l'ENSSAT.",
 
   "projects.balz.name": "Balz.io",
   "projects.balz.year": "2019-2020",
@@ -41,7 +42,7 @@
 
   "projects.cigar3.name": "Cigar3",
   "projects.cigar3.year": "2022-2024",
-  "projects.cigar3.desc": "Clone Open Source d'Agar.io utilisant l'API WebGL. 18 stars.",
+  "projects.cigar3.desc": "Clone Open Source d'Agar.io utilisant l'API WebGL. 19 stars.",
   "projects.cigar3.link": "Github",
 
   "projects.sixctf1.name": "SIXCTF I",
@@ -54,37 +55,51 @@
   "projects.sixctf2.desc": "Projet de CTF pour les \u00e9tudiants de l'IUT de Vannes, deuxi\u00e8me \u00e9dition. Chef de projet.",
   "projects.sixctf2.link": "Github",
 
-  "projects.brainrot.name": "BrainRot26",
-  "projects.brainrot.year": "2025",
-  "projects.brainrot.desc": "Un LLM humoristique impl\u00e9mentant l'algorithme ROT26.",
-  "projects.brainrot.link": "Github",
 
   "comp.1.rank": "#1",
   "comp.1.event": "24h de l'info, 2023",
-  "comp.1.detail": "Bourg-En-Bresse \u2014 IUT Lyon (contre toutes les IUT de France) \u00b7 1er en cyber",
+  "comp.1.detail": "Bourg-En-Bresse \u00b7 IUT Lyon (contre toutes les IUT de France) \u00b7 1er en cyber",
 
   "comp.2.rank": "#6",
   "comp.2.event": "Esaip CTF 2024",
-  "comp.2.detail": "Angers \u2014 130 participants \u00b7 30 \u00e9quipes \u00b7 11h de challenge \u00b7 7\u00e8me \u00e9dition",
+  "comp.2.detail": "Angers \u00b7 130 participants \u00b7 30 \u00e9quipes \u00b7 11h de challenge \u00b7 7\u00e8me \u00e9dition",
 
   "comp.3.rank": "#2",
   "comp.3.event": "24h de l'info, 2024",
-  "comp.3.detail": "Saint-Denis \u2014 IUT Villetaneuse (contre toutes les IUT de France)",
+  "comp.3.detail": "Saint-Denis \u00b7 IUT Villetaneuse (contre toutes les IUT de France)",
 
   "comp.4.rank": "#2",
   "comp.4.event": "24h de l'info, 2025",
-  "comp.4.detail": "Lyon \u2014 IUT Lyon (contre toutes les IUT de France) \u00b7 1er en cyber",
+  "comp.4.detail": "Lyon \u00b7 IUT Lyon (contre toutes les IUT de France) \u00b7 1er en cyber",
 
   "comp.5.rank": "#10",
   "comp.5.event": "BreizhCTF 2025",
-  "comp.5.detail": "Rennes \u2014 600 participants \u00b7 10h30 de challenge \u00b7 9\u00e8me \u00e9dition",
+  "comp.5.detail": "Rennes \u00b7 600 participants \u00b7 10h30 de challenge \u00b7 9\u00e8me \u00e9dition",
 
   "comp.6.rank": "Prix Innovation",
   "comp.6.event": "Rennes Data Challenge 2026",
-  "comp.6.detail": "Rennes \u2014 Universit\u00e9 de Rennes \u00b7 22 \u00e9quipes \u00b7 4\u00e8me \u00e9dition",
+  "comp.6.detail": "Rennes \u00b7 Universit\u00e9 de Rennes \u00b7 22 \u00e9quipes \u00b7 4\u00e8me \u00e9dition",
 
-  "seerdesk.prompt": "$ cat stack.txt",
-  "seerdesk.subtitle": "Monorepo \u00b7 8 composants \u00b7 Multi-language",
+  "comp.7.rank": "Finaliste",
+  "comp.7.event": "Cr\u00e9acc Bretagne 2026",
+  "comp.7.detail": "Concours de cr\u00e9ation d'entreprise \u00b7 Projet pr\u00e9sent\u00e9 : SeerDesk \u00b7 Organis\u00e9 par l'Ordre des Experts-Comptables de Bretagne \u00b7 14 finalistes s\u00e9lectionn\u00e9s sur 130 candidats",
+
+  "comp.8.rank": "Top 10",
+  "comp.8.event": "CTF IMT Hacklantique 2025",
+  "comp.8.detail": "Rennes \u00b7 IMT Atlantique, campus de Beaulieu",
+
+  "comp.9.rank": "Bourse \u00b7 2 000 \u20ac",
+  "comp.9.event": "Fondation de Rennes 2026",
+  "comp.9.detail": "Campus Innovation de l'Universit\u00e9 de Rennes \u00b7 Attribu\u00e9e \u00e0 SeerDesk",
+
+  "seerdesk.url": "https://seerdesk.fr",
+  "seerdesk.urlLabel": "seerdesk.fr",
+  "seerdesk.roleLabel": "R\u00d4LE",
+  "seerdesk.role": "Cofondateur & CEO \u00b7 Seer SAS",
+  "seerdesk.roleYear": "2025 \u2013 aujourd'hui",
+  "seerdesk.roleDesc": "Je m'occupe du d\u00e9veloppement et de la partie commerciale, avec deux associ\u00e9s.",
+  "seerdesk.about": "SeerDesk est une solution fran\u00e7aise et souveraine de bureau \u00e0 distance qui donne l'impression de travailler en local : environ 30 ms entre la machine distante et l'\u00e9cran. Elle est pens\u00e9e pour les m\u00e9tiers graphiques exigeants (bureaux d'\u00e9tudes, CAO/BIM, architecture, 3D, montage vid\u00e9o), o\u00f9 la moindre latence g\u00e2che tout. Plut\u00f4t que d'\u00e9quiper chaque salari\u00e9 d'une station de travail co\u00fbteuse, l'entreprise mutualise quelques machines puissantes, install\u00e9es dans ses locaux ou h\u00e9berg\u00e9es dans nos datacenters europ\u00e9ens, et son \u00e9quipe y travaille depuis n'importe quel ordinateur, au bureau comme en t\u00e9l\u00e9travail. Destin\u00e9e d'abord aux TPE/PME sans service informatique, elle est livr\u00e9e avec du mat\u00e9riel pr\u00e9configur\u00e9 et factur\u00e9e par utilisateur et par mois.",
+  "seerdesk.aboutLabel": "PR\u00c9SENTATION",
   "seerdesk.stackLabel": "STACK",
   "seerdesk.archLabel": "ARCHITECTURE",
 

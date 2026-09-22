@@ -1,38 +1,39 @@
 {
   "title": "Lenny Le Tyrant",
-  "subtitle": "Developer \u00b7 Passionate",
+  "subtitle": "Co-founder & CEO of SeerDesk \u00b7 Systems developer",
   "titlebar.left": "lenny@tyrant:~",
   "titlebar.right": "UTF-8 | LF",
 
   "nav.intro": "[1] Intro",
-  "nav.education": "[2] Education",
-  "nav.projects": "[3] Projects",
-  "nav.competitions": "[4] Competitions",
-  "nav.seerdesk": "[5] SeerDesk",
+  "nav.education": "[3] Education",
+  "nav.projects": "[4] Projects",
+  "nav.competitions": "[5] Competitions",
+  "nav.seerdesk": "[2] SeerDesk",
   "nav.contact": "[6] Contact",
 
   "section.intro": "Introduction",
   "section.education": "Education",
   "section.projects": "My Projects",
   "section.competitions": "My Competitions",
-  "section.seerdesk": "SeerDesk \u2014 Distributed Remote Desktop Solution",
+  "section.seerdesk": "SeerDesk \u00b7 Distributed Remote Desktop Solution",
 
   "edu.1.school": "ENSSAT",
   "edu.1.full": "National Graduate School of Applied Sciences and Technology",
   "edu.1.degree": "Engineering degree (apprenticeship), Computer Science",
   "edu.1.year": "Sep 2025 \u2013 Aug 2028",
+  "edu.1.roles": "Student Union (BDE) \u00b7 Executive board, technical & clubs manager (2nd year)",
 
   "edu.2.school": "IUT de Vannes",
-  "edu.2.degree": "Bachelor of Technology, Computer Science",
+  "edu.2.degree": "Bachelor of Technology (apprenticeship), Computer Science",
   "edu.2.year": "Sep 2022 \u2013 Aug 2025",
   "edu.2.skills": "Web development \u00b7 Java \u00b7 Project management",
+  "edu.2.roles": "Student Union (BDE) \u00b7 Member (2nd year) \u00b7 President (3rd year)",
 
   "edu.3.school": "Lyc\u00e9e Victor et H\u00e9l\u00e8ne Basch",
   "edu.3.degree": "Baccalaur\u00e9at (High School Diploma), Mathematics & Computer Science",
   "edu.3.year": "Sep 2019 \u2013 Jul 2022",
 
-  "intro.prompt": "$ cat about.txt",
-  "intro.text": "Hi, I'm <strong>Lenny</strong>, passionate about application development and technological innovation. I thrive working on challenging projects that combine technical expertise and creativity.",
+  "intro.text": "I'm <strong>Lenny</strong>. I build <a href=\"https://seerdesk.com\">SeerDesk</a>, a sovereign remote desktop with 30 ms latency, as co-founder and CEO. I'm a systems developer with a background in cybersecurity, and an apprentice engineer at ENSSAT.",
 
   "projects.balz.name": "Balz.io",
   "projects.balz.year": "2019-2020",
@@ -41,7 +42,7 @@
 
   "projects.cigar3.name": "Cigar3",
   "projects.cigar3.year": "2022-2024",
-  "projects.cigar3.desc": "Open Source Agar.io clone using the WebGL API. 18 stars.",
+  "projects.cigar3.desc": "Open Source Agar.io clone using the WebGL API. 19 stars.",
   "projects.cigar3.link": "Github",
 
   "projects.sixctf1.name": "SIXCTF I",
@@ -54,37 +55,51 @@
   "projects.sixctf2.desc": "CTF project for students at IUT de Vannes, second edition. Project leader.",
   "projects.sixctf2.link": "Github",
 
-  "projects.brainrot.name": "BrainRot26",
-  "projects.brainrot.year": "2025",
-  "projects.brainrot.desc": "A humorous LLM implementing the ROT26 algorithm.",
-  "projects.brainrot.link": "Github",
 
   "comp.1.rank": "#1",
   "comp.1.event": "24h de l'info, 2023",
-  "comp.1.detail": "Bourg-En-Bresse \u2014 IUT Lyon (against all IUTs in France) \u00b7 1st in cyber",
+  "comp.1.detail": "Bourg-En-Bresse \u00b7 IUT Lyon (against all IUTs in France) \u00b7 1st in cyber",
 
   "comp.2.rank": "#6",
   "comp.2.event": "Esaip CTF 2024",
-  "comp.2.detail": "Angers \u2014 130 participants \u00b7 30 teams \u00b7 11h challenge \u00b7 7th edition",
+  "comp.2.detail": "Angers \u00b7 130 participants \u00b7 30 teams \u00b7 11h challenge \u00b7 7th edition",
 
   "comp.3.rank": "#2",
   "comp.3.event": "24h de l'info, 2024",
-  "comp.3.detail": "Saint-Denis \u2014 IUT Villetaneuse (against all IUTs in France)",
+  "comp.3.detail": "Saint-Denis \u00b7 IUT Villetaneuse (against all IUTs in France)",
 
   "comp.4.rank": "#2",
   "comp.4.event": "24h de l'info, 2025",
-  "comp.4.detail": "Lyon \u2014 IUT Lyon (against all IUTs in France) \u00b7 1st in cyber",
+  "comp.4.detail": "Lyon \u00b7 IUT Lyon (against all IUTs in France) \u00b7 1st in cyber",
 
   "comp.5.rank": "#10",
   "comp.5.event": "BreizhCTF 2025",
-  "comp.5.detail": "Rennes \u2014 600 participants \u00b7 10h30 challenge \u00b7 9th edition",
+  "comp.5.detail": "Rennes \u00b7 600 participants \u00b7 10h30 challenge \u00b7 9th edition",
 
   "comp.6.rank": "Innovation Prize",
   "comp.6.event": "Rennes Data Challenge 2026",
-  "comp.6.detail": "Rennes \u2014 University of Rennes \u00b7 22 teams \u00b7 4th edition",
+  "comp.6.detail": "Rennes \u00b7 University of Rennes \u00b7 22 teams \u00b7 4th edition",
 
-  "seerdesk.prompt": "$ cat stack.txt",
-  "seerdesk.subtitle": "Monorepo \u00b7 8 components \u00b7 Multi-language",
+  "comp.7.rank": "Finalist",
+  "comp.7.event": "Cr\u00e9acc Bretagne 2026",
+  "comp.7.detail": "Business creation contest \u00b7 Pitched SeerDesk \u00b7 Organized by the Brittany Order of Chartered Accountants \u00b7 14 finalists selected out of 130 applicants",
+
+  "comp.8.rank": "Top 10",
+  "comp.8.event": "CTF IMT Hacklantique 2025",
+  "comp.8.detail": "Rennes \u00b7 IMT Atlantique, Beaulieu campus",
+
+  "comp.9.rank": "Grant \u00b7 \u20ac2,000",
+  "comp.9.event": "Fondation de Rennes 2026",
+  "comp.9.detail": "Campus Innovation, University of Rennes \u00b7 Awarded to SeerDesk",
+
+  "seerdesk.url": "https://seerdesk.com",
+  "seerdesk.urlLabel": "seerdesk.com",
+  "seerdesk.roleLabel": "ROLE",
+  "seerdesk.role": "Co-founder & CEO \u00b7 Seer SAS",
+  "seerdesk.roleYear": "2025 \u2013 present",
+  "seerdesk.roleDesc": "I handle development and the business side, alongside two partners.",
+  "seerdesk.about": "SeerDesk is a French, sovereign remote desktop solution that feels local: around 30 ms from the remote machine to your screen. It is built for demanding graphics work (engineering firms, CAD/BIM, architecture, 3D, video editing) where lag ruins everything. Instead of giving every employee a costly workstation, a company shares a few powerful machines, installed on its premises or hosted in our European data centers, and its team works on them from any computer, in the office or remotely. Aimed first at small and mid-sized businesses without an IT department, it ships as software plus pre-configured hardware, billed per user per month.",
+  "seerdesk.aboutLabel": "OVERVIEW",
   "seerdesk.stackLabel": "STACK",
   "seerdesk.archLabel": "ARCHITECTURE",
 

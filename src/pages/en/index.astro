@@ -40,10 +40,10 @@ const currentYear = new Date().getFullYear();
     <div class="panel">
       <div class="nav">
         <a href="#intro">{t('nav.intro')}</a>
+        <a href="#seerdesk">{t('nav.seerdesk')}</a>
         <a href="#education">{t('nav.education')}</a>
         <a href="#projects">{t('nav.projects')}</a>
         <a href="#competitions">{t('nav.competitions')}</a>
-        <a href="#seerdesk">{t('nav.seerdesk')}</a>
         <a href="#contact">{t('nav.contact')}</a>
       </div>
     </div>
@@ -56,8 +56,73 @@ const currentYear = new Date().getFullYear();
       </div>
       <div class="panel-body">
         <div class="intro-text">
-          <span class="prompt">{t('intro.prompt')}</span><br><br>
           <Fragment set:html={t('intro.text')} />
+        </div>
+      </div>
+    </div>
+
+    <!-- SEERDESK -->
+    <div class="panel" id="seerdesk">
+      <div class="panel-header">
+        <span class="tag">02</span>
+        <span class="label">{t('section.seerdesk')}</span>
+      </div>
+      <div class="panel-body sub-list">
+        <div class="sub">
+          <div class="sub-label">{t('seerdesk.roleLabel')}</div>
+          <div class="role-header">
+            <span class="role-title">{t('seerdesk.role')}</span>
+            <span class="role-year">{t('seerdesk.roleYear')}</span>
+          </div>
+          <p class="sub-text role-desc">{t('seerdesk.roleDesc')}</p>
+        </div>
+
+        <div class="sub">
+          <div class="sub-label">{t('seerdesk.aboutLabel')}</div>
+          <p class="sub-text">{t('seerdesk.about')}</p>
+          <a class="site-link" href={t('seerdesk.url')}>&gt; {t('seerdesk.urlLabel')}</a>
+        </div>
+
+        <div class="sub">
+          <div class="sub-label">{t('seerdesk.stackLabel')}</div>
+          <div class="tech-stack">
+            <span class="tech-tag">Go</span>
+            <span class="tech-tag">C++</span>
+            <span class="tech-tag">TypeScript</span>
+            <span class="tech-tag">React</span>
+            <span class="tech-tag">Electron</span>
+            <span class="tech-tag">WebRTC</span>
+            <span class="tech-tag">libdatachannel</span>
+            <span class="tech-tag">SDL3</span>
+            <span class="tech-tag">NVENC</span>
+            <span class="tech-tag">AMF</span>
+            <span class="tech-tag">QSV</span>
+            <span class="tech-tag">AV1</span>
+            <span class="tech-tag">VP9</span>
+            <span class="tech-tag">PostgreSQL</span>
+            <span class="tech-tag">OpenFGA</span>
+            <span class="tech-tag">OIDC</span>
+            <span class="tech-tag">Android</span>
+          </div>
+        </div>
+
+        <div class="sub">
+          <div class="sub-label">{t('seerdesk.archLabel')}</div>
+          <pre class="arch">
+{`  +--------------+   WSS   +--------------------+   WSS   +--------------+
+  | Desktop app  |-------->|    seerdesk-api    |<--------| host-service |
+  | Electron UI  |  REST   | REST + signalling  |  signed | daemon  (Go) |
+  +------+-------+         +----+----------+----+         +------+-------+
+         | launches             |          |                     | supervises
+  +------v-------+      +-------v----+ +---v------+       +------v-------+   +-----------+
+  | Viewer       |      | PostgreSQL | | OpenFGA  |       | Host engine  |<--| Virtual   |
+  | engine (C++) |      |    (HA)    | | (AuthZ)  |       | (C++)        |   | display   |
+  | decode+SDL3  |      +------------+ +----------+       | capture+enc  |   | driver    |
+  +------+-------+                                        +------+-------+   | (Windows) |
+         |                                                       |           +-----------+
+         +=========== WebRTC P2P : video, audio, input ==========+
+                     FEC (Reed-Solomon) + file transfer`}
+          </pre>
         </div>
       </div>
     </div>
@@ -65,35 +130,38 @@ const currentYear = new Date().getFullYear();
     <!-- EDUCATION -->
     <div class="panel" id="education">
       <div class="panel-header">
-        <span class="tag">02</span>
+        <span class="tag">03</span>
         <span class="label">{t('section.education')}</span>
       </div>
-      <div class="panel-body">
+      <div class="panel-body edu-list">
 
         <div class="edu">
-          <div class="edu-header">
-            <span class="edu-school">{t('edu.1.school')}</span>
-            <span class="edu-year">{t('edu.1.year')}</span>
+          <div class="edu-year">{t('edu.1.year')}</div>
+          <div class="edu-body">
+            <div class="edu-school">{t('edu.1.school')}</div>
+            <div class="edu-degree">{t('edu.1.degree')}</div>
+            <div class="edu-meta">{t('edu.1.full')}</div>
+            <div class="edu-role">{t('edu.1.roles')}</div>
           </div>
-          <div class="edu-full">{t('edu.1.full')}</div>
-          <div class="edu-degree">{t('edu.1.degree')}</div>
         </div>
 
         <div class="edu">
-          <div class="edu-header">
-            <span class="edu-school">{t('edu.2.school')}</span>
-            <span class="edu-year">{t('edu.2.year')}</span>
+          <div class="edu-year">{t('edu.2.year')}</div>
+          <div class="edu-body">
+            <div class="edu-school">{t('edu.2.school')}</div>
+            <div class="edu-degree">{t('edu.2.degree')}</div>
+            <div class="edu-meta">{t('edu.2.skills')}</div>
+            <div class="edu-role">{t('edu.2.roles')}</div>
           </div>
-          <div class="edu-degree">{t('edu.2.degree')}</div>
-          <div class="edu-skills">{t('edu.2.skills')}</div>
         </div>
 
         <div class="edu">
-          <div class="edu-header">
-            <span class="edu-school">{t('edu.3.school')}</span>
-            <span class="edu-year">{t('edu.3.year')}</span>
+          <div class="edu-year">{t('edu.3.year')}</div>
+          <div class="edu-body">
+            <div class="edu-school">{t('edu.3.school')}</div>
+            <div class="edu-degree">{t('edu.3.degree')}</div>
+
           </div>
-          <div class="edu-degree">{t('edu.3.degree')}</div>
         </div>
 
       </div>
@@ -102,7 +170,7 @@ const currentYear = new Date().getFullYear();
     <!-- PROJECTS -->
     <div class="panel" id="projects">
       <div class="panel-header">
-        <span class="tag">03</span>
+        <span class="tag">04</span>
         <span class="label">{t('section.projects')}</span>
       </div>
       <div class="panel-body">
@@ -127,7 +195,7 @@ const currentYear = new Date().getFullYear();
           </div>
           <div class="project-desc">
             <span class="tree-line">|&nbsp;&nbsp;</span>{t('projects.cigar3.desc')}<br>
-            <span class="tree-line">|&nbsp;&nbsp;</span><a class="project-link" href="https://github.com">{t('projects.cigar3.link')}</a>
+            <span class="tree-line">|&nbsp;&nbsp;</span><a class="project-link" href="https://github.com/LituDev/Cigar3">{t('projects.cigar3.link')}</a>
           </div>
         </div>
 
@@ -139,7 +207,7 @@ const currentYear = new Date().getFullYear();
           </div>
           <div class="project-desc">
             <span class="tree-line">|&nbsp;&nbsp;</span>{t('projects.sixctf1.desc')}<br>
-            <span class="tree-line">|&nbsp;&nbsp;</span><a class="project-link" href="https://github.com">{t('projects.sixctf1.link')}</a>
+            <span class="tree-line">|&nbsp;&nbsp;</span><a class="project-link" href="https://github.com/LituDev/SIX-CTF-X-HACK2G2">{t('projects.sixctf1.link')}</a>
           </div>
         </div>
 
@@ -151,21 +219,10 @@ const currentYear = new Date().getFullYear();
           </div>
           <div class="project-desc">
             <span class="tree-line">|&nbsp;&nbsp;</span>{t('projects.sixctf2.desc')}<br>
-            <span class="tree-line">|&nbsp;&nbsp;</span><a class="project-link" href="https://github.com">{t('projects.sixctf2.link')}</a>
+            <span class="tree-line">|&nbsp;&nbsp;</span><a class="project-link" href="https://github.com/LituDev/SIXCTF-II">{t('projects.sixctf2.link')}</a>
           </div>
         </div>
 
-        <div class="project">
-          <div class="project-header">
-            <span class="tree-line">+-</span>
-            <span class="project-name">{t('projects.brainrot.name')}</span>
-            <span class="project-year">{t('projects.brainrot.year')}</span>
-          </div>
-          <div class="project-desc">
-            <span class="tree-line">|&nbsp;&nbsp;</span>{t('projects.brainrot.desc')}<br>
-            <span class="tree-line">|&nbsp;&nbsp;</span><a class="project-link" href="https://github.com">{t('projects.brainrot.link')}</a>
-          </div>
-        </div>
 
       </div>
     </div>
@@ -173,7 +230,7 @@ const currentYear = new Date().getFullYear();
     <!-- COMPETITIONS -->
     <div class="panel" id="competitions">
       <div class="panel-header">
-        <span class="tag">04</span>
+        <span class="tag">05</span>
         <span class="label">{t('section.competitions')}</span>
       </div>
       <div class="panel-body">
@@ -204,61 +261,25 @@ const currentYear = new Date().getFullYear();
         </div>
 
         <div class="comp">
+          <div><span class="comp-rank">{t('comp.8.rank')}</span> <span class="comp-event">{t('comp.8.event')}</span></div>
+          <div class="comp-detail">{t('comp.8.detail')}</div>
+        </div>
+
+        <div class="comp">
           <div><span class="comp-rank">{t('comp.6.rank')}</span> <span class="comp-event">{t('comp.6.event')}</span></div>
-          <div class="comp-detail">{t('comp.6.detail')} &middot; <a class="project-link" href="https://tungfit.tech/">tungfit.tech</a></div>
+          <div class="comp-detail">{t('comp.6.detail')}</div>
         </div>
 
-      </div>
-    </div>
-
-    <!-- SEERDESK -->
-    <div class="panel" id="seerdesk">
-      <div class="panel-header">
-        <span class="tag">05</span>
-        <span class="label">{t('section.seerdesk')}</span>
-      </div>
-      <div class="panel-body" style="padding: 0;">
-        <div style="padding: 12px 16px; border-bottom: 1px solid var(--border); font-size: 12px; color: var(--dim);">
-          <span class="prompt" style="color: var(--dim);">{t('seerdesk.prompt')}</span><br>
-          {t('seerdesk.subtitle')}
+        <div class="comp">
+          <div><span class="comp-rank">{t('comp.7.rank')}</span> <span class="comp-event">{t('comp.7.event')}</span></div>
+          <div class="comp-detail">{t('comp.7.detail')}</div>
         </div>
 
-        <div style="padding: 12px 16px;">
-          <div style="color: var(--dim); font-size: 11px; margin-bottom: 6px;">{t('seerdesk.stackLabel')}</div>
-          <div class="tech-stack">
-            <span class="tech-tag">Go</span>
-            <span class="tech-tag">C++23</span>
-            <span class="tech-tag">TypeScript</span>
-            <span class="tech-tag">React</span>
-            <span class="tech-tag">Electron</span>
-            <span class="tech-tag">WebRTC</span>
-            <span class="tech-tag">PostgreSQL</span>
-            <span class="tech-tag">NATS JetStream</span>
-            <span class="tech-tag">OpenFGA</span>
-            <span class="tech-tag">Docker</span>
-            <span class="tech-tag">Ansible</span>
-            <span class="tech-tag">SDL3</span>
-            <span class="tech-tag">NVENC</span>
-            <span class="tech-tag">FFmpeg</span>
-          </div>
+        <div class="comp">
+          <div><span class="comp-rank">{t('comp.9.rank')}</span> <span class="comp-event">{t('comp.9.event')}</span></div>
+          <div class="comp-detail">{t('comp.9.detail')}</div>
         </div>
 
-        <div style="padding: 12px 16px; border-top: 1px solid var(--border); font-size: 12px;">
-          <div style="color: var(--dim); font-size: 11px; margin-bottom: 8px;">{t('seerdesk.archLabel')}</div>
-          <pre style="color: var(--white); font-size: 11px; line-height: 1.4; overflow-x: auto;">
-{`  +-----------+      +-----------+      +-----------+
-  |  Client   |----->|    API    |----->|  Engine   |
-  |  Desktop  |  WS  |  Backend  | Msg  | Streaming |
-  +-----------+      +-----------+      +-----------+
-                          |                  |
-                     +----+---+          Peer-to-Peer
-                     |        |              |
-                 +---v---+ +--v----+    +----v----+
-                 |  Data | | AuthZ |    | Capture |
-                 | Store | | Layer |    |  + Codec|
-                 +-------+ +-------+    +---------+`}
-          </pre>
-        </div>
       </div>
     </div>
 
